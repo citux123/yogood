@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YoGood GT!!</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/yogood.css">
+</head>
+	<body>
+		<section id="portada" class="portada">
+		<header id="header" class="header contenedor"> <!-- header -->
+			<!-- logotipo -->
+			<figure class="logotipo">
+				<img src="images/yogood.jpg" width="186" height="120" alt="yogood logotipo">
+			</figure>
+			<nav class="menu">
+				<!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">home</a>
+					</li>
+					<li>
+						<a href="#helado">helados</a>
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+			<div class="contenedor"> 
+				<h1 class="titulo">Helados de Yogurt</h1>
+				<h3 class="title-a">Lo mejor para el antojo y tu salud</h3>
+				<a href="index.html#helado" class="button">Conoce mas</a>
+			</div>
+		</section>
+		<section id="helado" class="helado contenedor">
+			<!-- documentacion -->
+			<h2>Nuestros helados</h2>
+			<article class="helados">
+				<img class="derecha" src="images/natural.jpg" alt="Natural" width="300">
+				<div class="contenedor-helado-a"> 
+					<h3 class="titble-b">Helado con topping</h3>
+					<ol>
+						<li>Sabor natural</li>
+						<li>Completamente saludable</li>
+						<li>Toppings naturales de la mejor calidad</li>
+					</ol>
+				</div>
+
+			</article>
+			<article class="helados">
+				<img class="izquierda" src="images/toping.jpg" alt="toppings" width="180">
+				<div class="contenedor-helado-b">
+					<h3>Helado natural</h3>
+					<ol>
+						<li>Sabor natural</li>
+						<li>Completamente saludable</li>
+						<li>sin grasas</li>
+					</ol>
+				</div>
+			</article>
+		</section>
+		<footer class="footer">
+			<div class="contenedor"> 
+				<div class="contacto">
+					<img src="images/yogood.jpg" alt="logotipo b" width="300" alt="325">
+					<a href="tel:+50259816029"><strong>Telefono:</strong> <span>59816029</span></a>
+					<a href="mailto:contacto@yogood.como.gt"><strong>E-mail:</strong><span>Contacto@yogood.com.gt</span></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" required  id="nombre" name="nombre">
+						<label for="email">E-mail</label>
+						<input type="email" required id="email" name="email">
+						<div class="sexo">
+							<label for="mujer">  
+								<input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+							</label>
+						</div>
+						<div class="intereses">
+							<label for="cotizacion">
+								<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotizacion
+							</label>
+							<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+							</label>
+							<label for="otros">
+								<input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+							</label>
+						</div>
+					</div>
+
+					<div class="col2">
+						<label for="comentarios">Comentarios</label>
+						<textarea name="" id="comentarios" cols="30" rows="5"></textarea>
+						<input type="submit" value="Enviar"/ class="button">
+					</div>
+					
+				</form>
+			</div>
+		</footer>
+
+	</body>
+</html>
