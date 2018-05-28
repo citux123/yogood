@@ -3,6 +3,47 @@
 body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
+	/*perspective: 1000px;*/
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td {
+	padding: 20px; 
+}
+
+
+table, td, th {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus {
+	background: lightgray;
+}
+
+.contenedor {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.background {
+	background-image: url(../images/toping.jpg);
+	background-size: cover;
 }
 
 .button {
@@ -45,8 +86,6 @@ body {
 }
 
 .portada {
-	background-image: url(../images/toping.jpg);
-	background-size: cover;
 	color: white;
 	padding: 20px;
 	/*quitar*/
@@ -65,10 +104,33 @@ body {
 	right: 0;
 }
 
+.post {
+	/*transition: 0.3s;*/
+	transition-duration: 0.3s;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	transform: rotate(45grad);
+}
+
+.opacity {
+	opacity: 1;
+}
+
+.opacity:hover{
+	opacity: 0.5;
+	
+}
+
+.translacion:hover {
+	transform: rotate(45grad);
+}
+
 .menu a{
 	color: white;
 	text-decoration: none;
 }
+
+
 
 .menu li {
 	display: inline-block;
@@ -80,6 +142,7 @@ body {
 	font-size: 30px;
 	line-height: 20px;
 	color: white;
+	transition: 0.3s;
 }
 
 .logotipo {
@@ -88,14 +151,8 @@ body {
 }
 
 
-.contenedor {
-	width: 800px;
-	margin: auto;
-	position: relative;
-}
-
 .helados {
-	margin: 10px;
+	margin: 10px 10px 40px 10px;
 	padding: 10px;
 	/*overflow: hidden;*/
 	border: 1px solid #1F313C;
@@ -125,8 +182,6 @@ body {
 .contenedor-helado-b {
 	margin-left: 370px;
 	position: relative;
-	
-	
 }
 
 .header {
@@ -135,6 +190,7 @@ body {
 
 .footer{
 	background: #273b47;
+	padding: 50px 10px;
 }
 
 .contacto {
@@ -167,8 +223,8 @@ body {
 	display: flex;
 	width: 400px;
 	color: white;
-	padding: 50px 10px;
-}
+/*	padding: 50px 10px;
+*/}
 
 
 .col1, .col2 {
@@ -184,6 +240,10 @@ body {
 	align-items: flex-start;
 }
 
+.col2 .button {
+	margin-top: 15px;
+}
+
 .intereses label {
 	font-size: 11px;
 }
@@ -192,30 +252,16 @@ body {
 	margin-bottom: 10px;
 }
 
+
 .sexo {
 	margin-top: 10px;
 }
 
-table {
-	width: 100%;
+.tabla {
+		margin: 50px 0;
+
 }
 
-th {
-	background: #273b47;
-	color: white;
-	padding: 10px 20px;
-	text-align: left;
-}
-
-td {
-	padding: 20px; 
-}
-
-
-table, td, th {
-	border: 1px solid #273b47;
-	border-collapse: collapse;
-}
 
 
 
